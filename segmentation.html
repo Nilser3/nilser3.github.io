@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en" itemscope itemtype="http://schema.org/Person">
+<head>
+            <meta charset="utf-8">
+        <!-- Site Meta Data -->
+        <title>Image Segmentation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Nilser Laines-Medina">
+
+        <link rel="shortcut icon" href="">
+
+        
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+        <!-- Style Meta Data -->
+        <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="/theme/css/pygments.css" type="text/css"/>
+
+        
+
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:url" content="/segmentation.html">
+    <meta name="twitter:title" content="Nilser Laines-Medina ~ Image Segmentation">
+    <meta name="twitter:description" content="This page presents my research on automatic medical image segmentation. Open-Source Software Development📦 &lt;/&gt;💻💾As a contributor of the Spinal Cord Toolbox (SCT), I develop open-source tools for the processing and quantitative analysis of spinal cord MRI. My contributions span atlas development, deep learning, quantitative MRI, and automated image analysis. Atlas-Based …">
+
+    <!-- Facebook Meta Data -->
+    <meta property="og:title" content="Nilser Laines-Medina ~ Image Segmentation"/>
+    <meta property="og:description" content="This page presents my research on automatic medical image segmentation. Open-Source Software Development📦 &lt;/&gt;💻💾As a contributor of the Spinal Cord Toolbox (SCT), I develop open-source tools for the processing and quantitative analysis of spinal cord MRI. My contributions span atlas development, deep learning, quantitative MRI, and automated image analysis. Atlas-Based …"/>
+    <meta property="og:image" content=""/>
+</head>
+
+<body>
+<!-- Sidebar -->
+<aside>
+    <center>
+        <img id="avatar" src="/images/perfil_nilser.jpeg" width="50">
+    </center>
+    <h1>Nilser Laines-Medina</h1>
+    <p class="site-title">Postdoctoral Researcher | Quantitative MRI | Spinal Cord Imaging | Artificial Intelligence</p>
+    <p>
+    <a href="https://github.com/Nilser3" target="_blank">
+        <img src="/images/github.png" width="35">
+    </a>
+
+    <a href="https://www.linkedin.com/in/nilser-laines" target="_blank">
+        <img src="/images/linkedin.png" width="35">
+    </a>
+
+    <a href="https://scholar.google.com/citations?user=GBzFDnMAAAAJ&hl=en" target="_blank">
+        <img src="/images/scholar.png" width="35">
+    </a>
+
+    <a href="https://www.researchgate.net/profile/Nilser-Laines-Medina" target="_blank">
+        <img src="/images/research.png" width="35">
+    </a>
+
+    <a href="https://orcid.org/0000-0003-0677-8991" target="_blank">
+        <img src="/images/orcid.png" width="35">
+    </a>
+    </p>
+
+    <nav class="nav">
+        <ul class="list-bare">
+            <li><a class="nav__link" href="/">About Me</a></li>
+            <li><a class="nav__link" href="/segmentation.html">Image Segmentation</a></li>
+            <li><a class="nav__link" href="/publications.html">Publications</a></li>
+            <li><a class="nav__link" href="/awards.html">Academic Awards</a></li>
+        </ul>
+    </nav>
+
+</aside>
+<!-- Content -->
+<article>
+    <section id="content">
+        <article>
+            <h2 class="post_title post_detail"><a href="/segmentation.html" rel="bookmark"
+                                                  title="Permalink to Image Segmentation">Image Segmentation</a></h2>
+            <div class="entry-content blog-post">
+                <p><em>This page presents my research on automatic medical image segmentation.</em></p>
+<p><br></p>
+<h1>Open-Source Software Development📦</h1>
+<p>&lt;/&gt;💻💾As a contributor of the <a href="https://spinalcordtoolbox.com"><strong>Spinal Cord Toolbox (SCT)</strong></a>, I develop open-source tools for the processing and quantitative analysis of spinal cord MRI. My contributions span atlas development, deep learning, quantitative MRI, and automated image analysis.</p>
+<p align="center">
+    <img src="/images/logo_sct.webp" width="150">
+</p>
+
+<hr>
+<p><br></p>
+<h1>Atlas-Based Segmentation🧩</h1>
+<h3>AMU7T: Quantitative 7T Spinal Cord Template</h3>
+<p><strong>June 2023</strong></p>
+<p>We developed <a href="https://github.com/spinalcordtoolbox/template-AMU7T"><strong>AMU7T</strong></a>, a high-resolution quantitative spinal cord template at 7 Tesla with refined white and gray matter parcellations. </p>
+<p>The template is fully integrated into the <a href="https://spinalcordtoolbox.com"><strong>SCT</strong></a> and is compatible with the <a href="https://github.com/spinalcordtoolbox/PAM50"><strong>PAM50 template</strong></a> anatomical space.</p>
+<p><strong>Conference:</strong> <em>ISMRM 2023 (Toronto, Canada)</em></p>
+<p><strong>Title:</strong> <em>AMU7T: A 3D QT1 and T2star-Weighted High-Resolution In Vivo Template with Refined White and Gray Matter Parcellation Dedicated to 7T Spinal Cord MR Analyses</em></p>
+<p><strong>DOI</strong>: <a href="https://doi.org/10.58530/2023/0569">https://doi.org/10.58530/2023/0569</a></p>
+<p align="center">
+    <img src="/images/seg_amu.png" width="400">
+</p>
+
+<hr>
+<p><br></p>
+<h1>Deep Learning-Based Segmentation🔬</h1>
+<h3>2D Multi-Class Spinal Cord and Gray Matter Segmentation at 7T</h3>
+<p><strong>October 2021</strong></p>
+<p>We developed a deep learning model for the simultaneous segmentation of the spinal cord and gray matter from 7T T2*-weighted MRI. </p>
+<p>The <a href="https://github.com/ivadomed/model-seg-gm-wm-t2star-7t-unet2d-multiclass">model</a> is available in the <a href="https://spinalcordtoolbox.com"><strong>SCT</strong></a></p>
+<p><strong>Title:</strong> <em>2D Multi-Class Model for Gray and White Matter Segmentation of the Cervical Spinal Cord at 7T.</em></p>
+<p><strong>DOI</strong>: <a href="https://doi.org/arXiv:2110.06516">https://doi.org/arXiv:2110.06516</a></p>
+<p align="center">
+    <img src="/images/seg_sc_gm.png" width="350">
+</p>
+
+<hr>
+<p><br></p>
+<h3>Multiple Sclerosis Lesion Segmentation on MP2RAGE MRI</h3>
+<p><strong>January 2024</strong></p>
+<p>We developed a deep learning-based tool for automatic spinal cord multiple sclerosis lesion segmentation from MP2RAGE MRI.</p>
+<p>The <a href="https://github.com/ivadomed/model-seg-ms-mp2rage">model</a> has been integrated into the <a href="https://spinalcordtoolbox.com"><strong>SCT</strong></a>.</p>
+<p><strong>Title:</strong> <em>Automatic spinal cord multiple sclerosis lesion segmentation on MP2RAGE MRI.</em></p>
+<p>Multiple Sclerosis and Related Disorders.
+DOI: <a href="https://doi.org/10.1016/j.msard.2026.107250">https://doi.org/10.1016/j.msard.2026.107250</a></p>
+<p align="center">
+    <img src="/images/seg_lesion.png" width="400">
+</p>
+
+<hr>
+<p><br></p>
+<h3>Contrast-Agnostic Gray Matter Segmentation</h3>
+<p><strong>April 2025</strong></p>
+<p>We developed a deep learning framework capable of segmenting spinal cord gray matter across multiple MRI contrasts, magnetic field strengths (1.5T, 3T and 7T), anatomical regions (cervical, thoracic and lumbar), and neurological pathologies.</p>
+<p>The <a href="https://github.com/ivadomed/model-gm-contrast-region-agnostic">model</a> is integrated into the <a href="https://spinalcordtoolbox.com"><strong>SCT</strong></a>.</p>
+<p><strong>Title:</strong> <em>Automatic Spinal Cord Gray Matter Segmentation Across Multiple Contrasts, Magnetic Fields, Regions and Pathologies.</em></p>
+<p>DOI: <em>Coming soon.</em> <a href="https://echo.ismrm.org/abstracts/view/eb52d720-e67a-44ec-ad93-88061416cbd7">ISMRM Abstract</a></p>
+<p align="center">
+    <img src="/images/seg_gm.png" width="400">
+</p>
+            </div>
+            
+        </article>
+    </section>
+</article>
+</body>
+</html>
+</article>
+
+<footer>
+    <p>
+        © 2026 Nilser Laines-Medina. Proudly powered by
+        <a href="https://getpelican.com/">Pelican</a>, which takes advantage of
+        <a href="https://www.python.org/">Python</a>.
+        Self-customized theme <strong>Pelican-Blue</strong>.
+    </p>
+</footer>
+
+</body>
+</html>
